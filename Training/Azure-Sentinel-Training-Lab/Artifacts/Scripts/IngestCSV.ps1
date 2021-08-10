@@ -148,63 +148,63 @@ Function SendToLogA ($url, $eventsTable) {
 }
 
 # Submit the data to the API endpoint
-#$status = SendToLogA -url ""https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/solarigate_CEFevent.csv" -EventsTable "CommonSecurityLog"
+#$status = SendToLogA -url "https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/solarigate_CEFevent.csv" -EventsTable "CommonSecurityLog"
 
 #Write-Host $status
 
-$status = SendToLogA -url ""https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/securityEvents.csv" -EventsTable "SecurityEvent"
+$status = SendToLogA -url "https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/securityEvents.csv" -EventsTable "SecurityEvent"
 
 Write-Host $status
 
-$status = SendToLogA -url ""https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/disable_accounts.csv" -EventsTable "SigninLogs"
+$status = SendToLogA -url "https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/disable_accounts.csv" -EventsTable "SigninLogs"
 
 Write-Host $status
 
-$status = SendToLogA -url ""https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/office_activity_inbox_rule.csv" -EventsTable "OfficeActivity"
+$status = SendToLogA -url "https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/office_activity_inbox_rule.csv" -EventsTable "OfficeActivity"
 
 Write-Host $status
 
-$status = SendToLogA -url ""https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/azureActivity_adele.csv" -EventsTable "AzureActivity"
+$status = SendToLogA -url "https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/azureActivity_adele.csv" -EventsTable "AzureActivity"
 
 Write-Host $status
 
-$status = SendToLogA -url ""https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/office_activity.csv" -EventsTable "OfficeActivity"
+$status = SendToLogA -url "https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/office_activity.csv" -EventsTable "OfficeActivity"
 
 Write-Host $status
 
-$status = SendToLogA -url ""https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/sign-in_adelete.csv" -EventsTable "SigninLogs"
+$status = SendToLogA -url "https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/sign-in_adelete.csv" -EventsTable "SigninLogs"
 
 Write-Host $status
 
-$status = SendToLogA -url ""https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/model_evasion_detection_CL_alerts.csv" -EventsTable "OfficeActivity"
+$status = SendToLogA -url "https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/model_evasion_detection_CL_alerts.csv" -EventsTable "OfficeActivity"
 
 Write-Host $status
 
-$status = SendToLogA -url ""https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/solarigate-beacon-umbrella.csv" -EventsTable "Cisco_Umbrella_dns"
+$status = SendToLogA -url "https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/solarigate-beacon-umbrella.csv" -EventsTable "Cisco_Umbrella_dns"
 
 Write-Host $status
 
-#$status = SendToLogA -url ""https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/ABAPAppLog_CL.csv" -EventsTable "ABAPAppLog_CL"
+#$status = SendToLogA -url "https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/ABAPAppLog_CL.csv" -EventsTable "ABAPAppLog_CL"
 
 Write-Host $status
 
-#$status = SendToLogA -url ""https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/ABAPAuditLog_CL.csv" -EventsTable "ABAPAuditLog_CL"
+#$status = SendToLogA -url "https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/ABAPAuditLog_CL.csv" -EventsTable "ABAPAuditLog_CL"
 
 #Write-Host $status
 
-#$status = SendToLogA -url ""https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/ABAPChangeDocsLog_CL.csv" -EventsTable "ABAPChangeDocsLog_CL"
+#$status = SendToLogA -url "https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/ABAPChangeDocsLog_CL.csv" -EventsTable "ABAPChangeDocsLog_CL"
 
 Write-Host $status
 
-#$status = SendToLogA -url ""https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/ABAPCRLog_CL.csv" -EventsTable "ABAPCRLog_CL"
+#$status = SendToLogA -url "https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/ABAPCRLog_CL.csv" -EventsTable "ABAPCRLog_CL"
 
 Write-Host $status
 
-#$status = SendToLogA -url ""https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/ABAPJobLog_CL.csv" -EventsTable "ABAPJobLog_CL"
+#$status = SendToLogA -url "https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/ABAPJobLog_CL.csv" -EventsTable "ABAPJobLog_CL"
 
 Write-Host $status
 
-#$status = SendToLogA -url ""https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/ABAPSpoolLog_CL.csv" -EventsTable "ABAPSpoolLog_CL"
+#$status = SendToLogA -url "https://raw.githubusercontent.com/nathansoz/Azure-Sentinel/sentinel-training/Training/Azure-Sentinel-Training-Lab/Artifacts/Telemetry/ABAPSpoolLog_CL.csv" -EventsTable "ABAPSpoolLog_CL"
 
 Write-Host $status
 
